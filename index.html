@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet"
+  />
+    <!-- Fontawesome cdn -->
+  <script src="https://kit.fontawesome.com/2e4fffeab5.js" crossorigin="anonymous"></script>
+        <!-- tailwind cdn -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  clifford: '#da373d',
+                },
+              },
+            },
+          }
+        </script>
+</head>
+<body>
+    <header class="bg-orange-50 py-10">
+        <!-- Banner Section -->
+         <section class="flex flex-col md:flex-row items-center justify-between max-w-screen-xl mx-auto px-4 lg:px-10">
+            <!-- Text Content -->
+            <div class="space-y-4">
+                <h1 class="text-5xl md:text-7xl font-bold">It's good <br>tea time at The <br>Tea House</h1>
+                <p class="text-gray-500 w-3/4 text-xl">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-7 py-3 text-white rounded-lg font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
+            </div>
+
+            <!-- Image and Retting -->
+             <div class="relative">
+                <img src="./images/banner.png" alt="">
+                <!-- Card -->
+                <div class="bg-white rounded-lg border flex items-center px-5 py-3 md:px-7 md:py-5 absolute bottom-[10%] left-[10%]">
+                    <i class="fa-solid fa-star mr-4 text-2xl text-amber-500"></i>
+                    <div>
+                        <h2 class="font-bold text-xl md:text-2xl">5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+             </div>
+         </section>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto px-4 lg:px-10">
+        <!-- Our Featured Products -->
+        <section class="mt-8 mb-8">
+            <!-- Text Content -->
+            <div class="text-center">
+                <h2 class="text-3xl md:text-5xl font-bold">Our Featured Products</h2>
+                <p class="px-4 md:px-32 mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-7 ">
+                <!-- Product Card -->
+                <div class="p-5 grid place-items-center text-center rounded-xl shadow-md bg-gradient-to-t from-[#F4F4F4]/5 to-[#F4F4F4]">
+                    <img class="max-w-full mb-4" src="./images/tea-1.png" alt="">
+                    <h3 class="text-2xl font-bold">Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- Product Card -->
+                <div class="p-5 grid place-items-center text-center rounded-xl shadow-md bg-gradient-to-t from-[#F4F4F4]/5 to-[#F4F4F4]">
+                    <img class="max-w-full mb-4" src="./images/tea-2.png" alt="">
+                    <h3 class="text-2xl font-bold">Black Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- Product Card -->
+                <div class="p-5 grid place-items-center text-center rounded-xl shadow-md bg-gradient-to-t from-[#F4F4F4]/5 to-[#F4F4F4]">
+                    <img class="max-w-full mb-4" src="./images/tea-3.png" alt="">
+                    <h3 class="text-2xl font-bold">Green Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- Product Card -->
+                <div class="p-5 grid place-items-center text-center rounded-xl shadow-md bg-gradient-to-t from-[#F4F4F4]/5 to-[#F4F4F4]">
+                    <img class="max-w-full mb-4" src="./images/tea-4.png" alt="">
+                    <h3 class="text-2xl font-bold">Lemon Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+         </section>
+
+
+    </main>
+
+    <footer class="bg-orange-100 py-10">
+        <div class="max-w-screen-xl mx-auto px-4 lg:px-10">
+            <div class="flex justify-between items-center"> 
+                <!-- logo -->
+                <div>
+                    <img src="./images/cup.png" alt="">
+                </div>
+                <!-- Button -->
+                 <div class="flex flex-col md:flex-row items-center gap-4">
+                    <p class="text-xl">Ready to get strated?</p>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-7 py-3 text-white rounded-lg font-bold">Get Started</button>
+                 </div>
+            </div>
+            <!-- link Items -->
+             <div class="flex flex-col md:flex-row gap-6 md:gap-0 justify-between my-10">
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-500" href="#">Home</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+                        <li><a class="hover:text-orange-500" href="#">About</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Our Service -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Our Service</h4>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-500" href="#">Home</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+                        <li><a class="hover:text-orange-500" href="#">About</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Help -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Help</h4>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-500" href="#">Home</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+                        <li><a class="hover:text-orange-500" href="#">About</a></li>
+                        <li><a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Subscribe to our newsletter</h4>
+                    <input class="outline-none bg-transparent border-[#000] border-b-2 p-1" type="email" placeholder="Enter your email">
+                    <i class="fa-solid fa-chevron-right w-8 h-8 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
+                    <!-- social Icon -->
+                     <div class="flex gap-4 mt-5">
+                        <i class="fa-brands fa-facebook text-3xl"></i>
+                        <i class="fa-brands fa-instagram text-3xl"></i>
+                        <i class="fa-brands fa-square-x-twitter text-3xl"></i>
+                        <i class="fa-brands fa-tiktok text-3xl"></i>
+                     </div>
+                </div>
+             </div>
+             
+        </div>
+        <!-- Horizontal Line -->
+        <hr>
+        <p class="text-center pt-5"> &copy; 2024 TOREQUL. to - All rights reserved.</p>
+    </footer>
+</body>
+</html>
